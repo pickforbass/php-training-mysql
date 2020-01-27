@@ -1,5 +1,87 @@
+/*Set body and basics things*/
 label, select, input{
   width: 150px;
   display: inline-block;
   margin: 5px 0;
+}
+
+body{
+  margin : 0 auto 0 auto;
+  width : 100%;
+  font-family: "Malgun Gothic";
+}
+header{
+  background: darkgreen;
+  height: 100px;
+}
+
+h1{
+  font-family: Bahnschrift;
+  color : white;
+  margin : 0 70px;
+  padding-top: 20px;
+}
+/*Set sections*/
+section{
+  width: 1100px;
+  margin : 20px auto 20px auto;
+  padding : 20px;
+}
+
+.content{
+  background: linear-gradient(120deg,  #dfaf2c 15%,#f2ac29 33%,#f2ac29 66%,#dfaf2c 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfaf2c', endColorstr='#dfaf2c',GradientType=1 );
+  border-radius : 15px;
+}
+
+/*Set array*/
+.h_row{
+  border-bottom : 1px solid black;
+  padding-left: 15px;
+  margin: 5px 0 5px;
+}
+
+.hiking_info{
+  display: inline-block;
+  width : 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+.hike_name{
+  display: inline-block;
+  width : 600px;
+}
+.h_row:first-child{
+  border-bottom : 2px solid black;
+  font-family: Bahnschrift;
+}
+
+/*Set buttons and links*/
+
+a{
+  color: white;
+  background: darkgreen;
+  font-family: Bahnschrift;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 40px;
+  padding : 15px;
+  border-radius: 20px;
+}
+
+.valid-add-hike{
+  position : absolute;
+  top : 100px;
+  left : 1px;
+  width: 300px;
+  margin : 0 auto 0 auto;
+  border : 2px black solid;
+  animation-name: fadeOut;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100%{opacity: 0;}
 }

@@ -6,12 +6,16 @@
 	<link rel="stylesheet" href="css/basics.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-	<a href="/php-pdo/read.php">Liste des données</a>
+	<a href="read.php">Liste des données</a>
 	<h1>Ajouter</h1>
 	<form action="" method="post">
 		<div>
 			<label for="name">Name</label>
-			<input type="text" name="name" value="">
+			<select name="hike">
+                <?php
+                
+                ?>
+            </select>
 		</div>
 
 		<div>
