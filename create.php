@@ -44,8 +44,8 @@
 </section>
 
 <section>
-    <a href="read.php">Retour à la liste des randonnées</a>
-    <a href="read.php">Liste des données</a>
+    <a class ="main_link" href="read.php">Retour à la liste des randonnées</a>
+    <a class ="main_link" href="read.php">Liste des données</a>
 </section>
 </body>
 </html>
