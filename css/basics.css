@@ -4,6 +4,9 @@ label, select, input{
   display: inline-block;
   margin: 5px 0;
 }
+a{
+  text-decoration: none;
+}
 
 body{
   margin : 0 auto 0 auto;
@@ -12,14 +15,20 @@ body{
 }
 header{
   background: darkgreen;
+  color : white;
   height: 100px;
 }
 
 h1{
   font-family: Bahnschrift;
-  color : white;
-  margin : 0 70px;
+  margin : 0 50px 15px;
   padding-top: 20px;
+  width : 60%;
+  display: inline-block;
+}
+#connectzone{
+  width: 30%;
+  display: inline-block;
 }
 /*Set sections*/
 section{
@@ -43,7 +52,7 @@ section{
 
 .hiking_info{
   display: inline-block;
-  width : 120px;
+  width : 100px;
   text-align: center;
   vertical-align: middle;
 }
@@ -64,9 +73,20 @@ section{
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 30px;
+  margin: 17px;
   padding : 5px;
   border-radius: 20px;
+}
+.delete_button{
+  color: white;
+  background: orangered;
+  font-family: Bahnschrift;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 17px;
+  padding : 2px;
+  border-radius: 10px;
 }
 
 .main_link{
